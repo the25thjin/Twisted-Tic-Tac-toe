@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(44, 41, 41);
+    color: white;
+    font-size: larger;
+    font-family: "Times New Roman", Times, serif;
+    
+  }
+  p{
+    font-size:large;
+    font-family: "Times New Roman", Times, serif;
+  }
+  h1{
+    text-align: center;
+  }
+  #back_button{
+    padding: 1rem;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+  }
+  .footer{
+    text-align: center;
+  }
+  .quote{ 
+    text-align: center;
+    background-color: black;
+  }

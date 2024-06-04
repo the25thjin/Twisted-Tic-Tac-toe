@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+.box {
+  width: 18vmin;
+  height: 18vmin;
+  background-color: rgba(229, 226, 215, 0.664);
+  color: white;
+  font-size: larger;
+  border: solid black 3px;
+}
+#container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+body {
+  background-color: rgb(44, 41, 41);
+  color: white;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+#game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+#reset_button {
+  padding: 1rem;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: burlywood;
+}
+#title {
+  padding: 1rem;
+}
+/* #new_button {
+  margin-left: 3rem;
+  padding: 1rem;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: burlywood;
+} */
+#msg {
+  margin-bottom: 3rem;
+  font-size: x-large;
+  font-family: "Times New Roman", Times, serif;
+}
+.hide {
+  display: none;
+}
+#back_button{
+  padding: 1rem;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: burlywood;
+}
